@@ -1,0 +1,128 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lucero FC//Calendario 2026-27//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Lucero FC
+X-WR-TIMEZONE:Europe/Madrid
+X-WR-CALDESC:Partidos del Lucero FC en la Liga Iberos 2026/27
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Madrid
+X-LIC-LOCATION:Europe/Madrid
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:lucero-2026-27-j1@martin08310.github.io
+DTSTAMP:20261117T094723Z
+DTSTART;TZID=Europe/Madrid:20261004T090000
+DTEND;TZID=Europe/Madrid:20261004T110000
+SUMMARY:⚽ J1 · Lucero FC 3-6 Atlético Zamora
+LOCATION:ED Almudena\, Madrid
+DESCRIPTION:Liga Iberos 2026/27 · Jornada 1 · En casa\nToda la informaci
+ ón: https://martin08310.github.io/lucero-fc/#jornada-1
+URL:https://martin08310.github.io/lucero-fc/#jornada-1
+CATEGORIES:Lucero FC
+END:VEVENT
+BEGIN:VEVENT
+UID:lucero-2026-27-j2@martin08310.github.io
+DTSTAMP:20261117T094723Z
+DTSTART;TZID=Europe/Madrid:20261018T130000
+DTEND;TZID=Europe/Madrid:20261018T150000
+SUMMARY:⚽ J2 · Athletic Club Socopó 5-2 Lucero FC
+LOCATION:Valdeyeros\, Madrid
+DESCRIPTION:Liga Iberos 2026/27 · Jornada 2 · Fuera\nToda la información
+ : https://martin08310.github.io/lucero-fc/#jornada-2
+URL:https://martin08310.github.io/lucero-fc/#jornada-2
+CATEGORIES:Lucero FC
+END:VEVENT
+BEGIN:VEVENT
+UID:lucero-2026-27-j3@martin08310.github.io
+DTSTAMP:20261117T094723Z
+DTSTART;TZID=Europe/Madrid:20261025T110000
+DTEND;TZID=Europe/Madrid:20261025T130000
+SUMMARY:⚽ J3 · Dynamo de Ucrania 1-1 Lucero FC
+LOCATION:ED Almudena\, Madrid
+DESCRIPTION:Liga Iberos 2026/27 · Jornada 3 · Fuera\nToda la información
+ : https://martin08310.github.io/lucero-fc/#jornada-3
+URL:https://martin08310.github.io/lucero-fc/#jornada-3
+CATEGORIES:Lucero FC
+END:VEVENT
+BEGIN:VEVENT
+UID:lucero-2026-27-j4@martin08310.github.io
+DTSTAMP:20261117T094723Z
+DTSTART;TZID=Europe/Madrid:20261108T170000
+DTEND;TZID=Europe/Madrid:20261108T190000
+SUMMARY:⚽ J4 · Iberos CF 2-2 Lucero FC
+LOCATION:José Durán\, Madrid
+DESCRIPTION:Liga Iberos 2026/27 · Jornada 4 · Fuera\nToda la información
+ : https://martin08310.github.io/lucero-fc/#jornada-4
+URL:https://martin08310.github.io/lucero-fc/#jornada-4
+CATEGORIES:Lucero FC
+END:VEVENT
+BEGIN:VEVENT
+UID:lucero-2026-27-j5@martin08310.github.io
+DTSTAMP:20261117T094723Z
+DTSTART;TZID=Europe/Madrid:20261115T123000
+DTEND;TZID=Europe/Madrid:20261115T143000
+SUMMARY:⚽ J5 · Lucero FC 3-2 Sporting Madrid
+LOCATION:Santa Eugenia\, Madrid
+DESCRIPTION:Liga Iberos 2026/27 · Jornada 5 · En casa\nToda la informaci
+ ón: https://martin08310.github.io/lucero-fc/#jornada-5
+URL:https://martin08310.github.io/lucero-fc/#jornada-5
+CATEGORIES:Lucero FC
+END:VEVENT
+BEGIN:VEVENT
+UID:lucero-2026-27-j6@martin08310.github.io
+DTSTAMP:20261117T094723Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+TRANSP:TRANSPARENT
+SUMMARY:⚽ J6 · Lucero FC vs Unión Argentina
+DESCRIPTION:Liga Iberos 2026/27 · Jornada 6 · En casa\nHora por confirmar
+ \nCampo por confirmar\nToda la información: https://martin08310.github.io
+ /lucero-fc/#jornada-6
+URL:https://martin08310.github.io/lucero-fc/#jornada-6
+CATEGORIES:Lucero FC
+END:VEVENT
+BEGIN:VEVENT
+UID:lucero-2026-27-j7@martin08310.github.io
+DTSTAMP:20261117T094723Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+TRANSP:TRANSPARENT
+SUMMARY:⚽ J7 · Atlético Caribe vs Lucero FC
+DESCRIPTION:Liga Iberos 2026/27 · Jornada 7 · Fuera\nHora por confirmar\n
+ Campo por confirmar\nToda la información: https://martin08310.github.io/l
+ ucero-fc/#jornada-7
+URL:https://martin08310.github.io/lucero-fc/#jornada-7
+CATEGORIES:Lucero FC
+END:VEVENT
+BEGIN:VEVENT
+UID:lucero-2026-27-j8@martin08310.github.io
+DTSTAMP:20261117T094723Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+TRANSP:TRANSPARENT
+SUMMARY:⚽ J8 · Lucero FC vs Britanico FC
+DESCRIPTION:Liga Iberos 2026/27 · Jornada 8 · En casa\nHora por confirmar
+ \nCampo por confirmar\nToda la información: https://martin08310.github.io
+ /lucero-fc/#jornada-8
+URL:https://martin08310.github.io/lucero-fc/#jornada-8
+CATEGORIES:Lucero FC
+END:VEVENT
+END:VCALENDAR
